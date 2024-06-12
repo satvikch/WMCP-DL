@@ -32,7 +32,7 @@ The code implements a novel sparse recovery algorithm using a weighted minimax-c
 - MCP_Dictionary_Learning_Final.ipynb - MCP-based dictionary learning.
 - WMCP_Dictionary_Learning_Final.ipynb - Weighted ℓ1-minimization dictionary learning.
 
-- For the dictionary initialized, the dicitonary_initiliaze.mat file is used. The input MRI (input.png) is used, and (15% noise.png) is generated as the noisy image.
+- For the dictionary initialized, the dicitonary_initiliaze.mat file is used. The MRI (input.png) is used, and (15% noise.png) is generated as the noisy image.
 
 # If you find this work useful for your research, please cite:
 
@@ -44,6 +44,6 @@ The code implements a novel sparse recovery algorithm using a weighted minimax-c
   organization={IEEE}
 }
 
-# This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 This README provides a comprehensive overview of the project, including how to set up and run the code, visualize results, cite the work, and contact the authors. It also addresses installation requirements and acknowledges support and contributions.
