@@ -1,20 +1,20 @@
-## WMCP-DL : Denoising of Brain MR Images
+# WMCP-DL : Denoising of Brain MR Images
 
-# Adaptive Weighted Minimax-Concave Penalty-Based Dictionary Learning for Brain MR Images
+Adaptive Weighted Minimax-Concave Penalty-Based Dictionary Learning for Brain MR Images
 
 This repository contains the implementation of the Adaptive Weighted Minimax-Concave Penalty (WMC) based Dictionary Learning for Brain MR Images, as described in our paper published at the 2020 IEEE 17th International Symposium on Biomedical Imaging (ISBI). The approach uses a weighted ℓ1-minimization technique under tight frames, leveraging an adaptive threshold for enhancing dictionary learning and image denoising performance.
 
-## Introduction
+# Introduction
 
 The code implements a novel sparse recovery algorithm using a weighted minimax-concave penalty, which adapts weights iteratively to improve the representation capability of dictionary learning algorithms. This results in superior denoising performance in brain MR images compared to state-of-the-art techniques.
 
-## Features
+# Features
 
 - Implement the Weighted Minimax Concave Penalty optimization algorithm for Sparse Coding (WMCPSC).
 - Demonstrates superior denoising performance using learned dictionaries.
 - Utilizes FISTA for efficient optimization.
 
-## Requirements
+# Requirements
 
 - Python 3.6 or above
 - NumPy
